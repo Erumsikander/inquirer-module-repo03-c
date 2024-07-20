@@ -9,6 +9,6 @@ let userInput = await inquirer.prompt([
         message: "what is your name?",
         }
     ]);
-    console.log(userInput.name + " " );
+    console.log(userInput.name);
 
     // i will resolve it
