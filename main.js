@@ -1,8 +1,10 @@
 import inquirer from "inquirer";
-let answers = await inquirer.prompt([{
-        name: "age",
-        type: "number",
-        message: "Enter your Age:"
+let userInput = await inquirer.prompt([
+    {
+        name: "name",
+        type: "input",
+        message: "what is your name?",
     }
 ]);
-console.log("Insha Allah, in " + (60 - answers.age) + " years you will be 60 years old.");
+console.log(userInput.name + " ");
+// i will resolve it
