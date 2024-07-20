@@ -8,4 +8,5 @@ let userInput = await inquirer.prompt([
         type: "input",
         message: "what is your name?"
         }
-    ])
+    ]) 
+    // i will resolve it
